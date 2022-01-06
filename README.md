@@ -112,7 +112,7 @@ Choose `New Terminal` from the menu, or use the shortcut `Ctrl` + `Shift` + \`
 >         * This creates a new folder called `venv`
 >         * The purpose of this folder is to have only the Python modules we need in our program.
 > 3. Activate the virtual environment
->     * <ins>In the Terminal, type `venv/bin/activate`
+>     * <ins>In the Terminal, type `source venv/bin/activate`
 >         * You'll see that the Terminal prompt changes to include `(venv)` at the beginning of the prompt. That's how you know you're in the right environment.
 > 4. Install the required package(s)
 >     * <ins>In the Terminal, type `pip install bokeh`</ins>
